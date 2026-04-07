@@ -11,6 +11,7 @@ const __dirname = path.dirname(__filename);
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(), viteSingleFile()],
+  base: '/booking_issyk-kul/', // <-- ДОБАВЬ ЭТУ СТРОКУ (замени на точное имя репозитория, слэши по краям обязательны!)
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
