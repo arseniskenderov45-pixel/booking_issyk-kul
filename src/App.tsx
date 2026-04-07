@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useParams, useNavigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useParams, useNavigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { CottageProvider, useCottages } from './contexts/CottageContext';
 import Navbar from './components/Navbar';
